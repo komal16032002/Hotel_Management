@@ -4,7 +4,7 @@ const pool=mysql.createPool({
     password:"root",
     user:"root",
     database:"hotel"
-})
+})//database connectivity
 
 module.exports=pool.promise();
 
